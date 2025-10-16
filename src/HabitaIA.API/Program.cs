@@ -1,3 +1,4 @@
+using dotenv.net;
 using HabitaIA.Business.Imovel.Interfaces;
 using HabitaIA.Business.Imovel.Services;
 using HabitaIA.Business.NLP;
@@ -13,15 +14,22 @@ using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 using Microsoft.SemanticKernel.Embeddings;
 
+DotEnv.Load();
 var builder = WebApplication.CreateBuilder(args);
 var cfg = builder.Configuration;
+
+builder.Configuration
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddEnvironmentVariables();
 
 // ---------- EF Core + PostgreSQL ----------
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddDbContext<ContextoHabita>(opt =>
-    opt.UseNpgsql(cfg.GetConnectionString("pg"))
-);
-
+{
+    // Tenta pegar a connection string do appsettings.json ou do ambiente (.env / sistema)
+    var conn = cfg.GetConnectionString("pg") ?? Environment.GetEnvironmentVariable("PG_CONN");
+    opt.UseNpgsql(conn);
+});
 // ---------- Domínio ----------
 builder.Services.AddScoped<IImovelRepository, ImovelRepository>();
 builder.Services.AddScoped<IImovelService, ImovelService>();
@@ -32,21 +40,19 @@ builder.Services.AddSingleton<IChatCompletionService>(sp =>
 {
     var c = sp.GetRequiredService<IConfiguration>();
     var apiKey = c["OpenAI:ApiKey"] ?? Environment.GetEnvironmentVariable("OPENAI_API_KEY");
-    return new OpenAIChatCompletionService(
-        modelId: c["OpenAI:ChatModel"] ?? "gpt-4o-mini",
-        apiKey: apiKey
-    );
+    var modelId = c["OpenAI:ChatModel"] ?? "gpt-4o-mini";
+
+    return new OpenAIChatCompletionService(modelId, apiKey);
 });
 
-// 2) Embeddings (SK) — ***ESSENCIAL*** para o seu SemanticKernelEmbeddingService
+// 2) Embeddings (SK)
 builder.Services.AddSingleton<ITextEmbeddingGenerationService>(sp =>
 {
     var c = sp.GetRequiredService<IConfiguration>();
     var apiKey = c["OpenAI:ApiKey"] ?? Environment.GetEnvironmentVariable("OPENAI_API_KEY");
-    return new OpenAITextEmbeddingGenerationService(
-        modelId: "text-embedding-3-small", // ou "text-embedding-3-large"
-        apiKey: apiKey
-    );
+    var modelId = c["OpenAI:EmbeddingModel"] ?? "text-embedding-3-small";
+
+    return new OpenAITextEmbeddingGenerationService(modelId, apiKey);
 });
 
 // 3) Plugin + Service para Function Calling (extração de filtros)

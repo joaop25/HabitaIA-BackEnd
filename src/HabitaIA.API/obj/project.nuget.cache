@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zt58Wutv5t4=",
+  "dgSpecHash": "02DgcZOvzOs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj",
+  "projectFilePath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\azure.ai.openai\\2.5.0-beta.1\\azure.ai.openai.2.5.0-beta.1.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\azure.core\\1.49.0\\azure.core.1.49.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\dotenv.net\\4.0.0\\dotenv.net.4.0.0.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",

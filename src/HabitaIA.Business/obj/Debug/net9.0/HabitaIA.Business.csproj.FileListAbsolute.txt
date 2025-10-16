@@ -10,3 +10,16 @@ C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaI
 C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\refint\HabitaIA.Business.dll
 C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\HabitaIA.Business.pdb
 C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\ref\HabitaIA.Business.dll
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\bin\Debug\net9.0\HabitaIA.Business.deps.json
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\bin\Debug\net9.0\HabitaIA.Business.dll
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\bin\Debug\net9.0\HabitaIA.Business.pdb
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\HabitaIA.Business.csproj.AssemblyReference.cache
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\HabitaIA.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\HabitaIA.Business.AssemblyInfoInputs.cache
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\HabitaIA.Business.AssemblyInfo.cs
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\HabitaIA.Business.csproj.CoreCompileInputs.cache
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\HabitaIA.Business.sourcelink.json
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\HabitaIA.Business.dll
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\refint\HabitaIA.Business.dll
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\HabitaIA.Business.pdb
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.Business\obj\Debug\net9.0\ref\HabitaIA.Business.dll

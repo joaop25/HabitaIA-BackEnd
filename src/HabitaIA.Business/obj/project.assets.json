@@ -982,11 +982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
+      "projectUniqueName": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
       "projectName": "HabitaIA.Business",
-      "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
+      "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
       "packagesPath": "C:\\Users\\joao.fernandes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\obj\\",
+      "outputPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

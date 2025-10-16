@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj": {}
+    "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj": {
+    "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj",
+        "projectUniqueName": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj",
         "projectName": "HabitaIA.API",
-        "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj",
+        "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj",
         "packagesPath": "C:\\Users\\joao.fernandes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\obj\\",
+        "outputPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj": {
-                "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj"
+              "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj": {
+                "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj"
               },
-              "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj": {
-                "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj"
+              "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj": {
+                "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj"
               }
             }
           }
@@ -98,6 +98,10 @@
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [
@@ -123,14 +127,14 @@
         }
       }
     },
-    "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj": {
+    "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
+        "projectUniqueName": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
         "projectName": "HabitaIA.Business",
-        "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
+        "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
         "packagesPath": "C:\\Users\\joao.fernandes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\obj\\",
+        "outputPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -206,14 +210,14 @@
         }
       }
     },
-    "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj": {
+    "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj",
+        "projectUniqueName": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj",
         "projectName": "HabitaIA.Core",
-        "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj",
+        "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj",
         "packagesPath": "C:\\Users\\joao.fernandes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\obj\\",
+        "outputPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -234,8 +238,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj": {
-                "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj"
+              "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj": {
+                "projectPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj"
               }
             }
           }

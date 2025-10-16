@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HabitaIA.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+facce5fde8523abd0ef87498bc01bcd369ad126b")]
 [assembly: System.Reflection.AssemblyProductAttribute("HabitaIA.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HabitaIA.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

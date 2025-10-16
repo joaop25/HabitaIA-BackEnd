@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L5AiVYCdHts=",
+  "dgSpecHash": "NGjkuyAAl+s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
+  "projectFilePath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\azure.ai.openai\\2.5.0-beta.1\\azure.ai.openai.2.5.0-beta.1.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\azure.core\\1.49.0\\azure.core.1.49.0.nupkg.sha512",
