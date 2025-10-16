@@ -1,0 +1,17 @@
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\bin\Debug\net9.0\HabitaIA.Core.deps.json
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\bin\Debug\net9.0\HabitaIA.Core.runtimeconfig.json
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\bin\Debug\net9.0\HabitaIA.Core.dll
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\bin\Debug\net9.0\HabitaIA.Core.pdb
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\bin\Debug\net9.0\HabitaIA.Business.dll
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\bin\Debug\net9.0\HabitaIA.Business.pdb
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\HabitaIA.Core.csproj.AssemblyReference.cache
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\HabitaIA.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\HabitaIA.Core.AssemblyInfoInputs.cache
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\HabitaIA.Core.AssemblyInfo.cs
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\HabitaIA.Core.csproj.CoreCompileInputs.cache
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\HabitaIA.F2000F15.Up2Date
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\HabitaIA.Core.dll
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\refint\HabitaIA.Core.dll
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\HabitaIA.Core.pdb
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\HabitaIA.Core.genruntimeconfig.cache
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaAI\HabitaIA\src\HabitaIA.Core\obj\Debug\net9.0\ref\HabitaIA.Core.dll

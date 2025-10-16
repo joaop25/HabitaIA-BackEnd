@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "HabitaIA.API.Controllers.V1.Imovel.ImovelController",
+    "Method": "Criar",
+    "RelativePath": "api/imoveis",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HabitaIA.API.DTOs.Imovel.CriarImovelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HabitaIA.API.Controllers.V1.Imovel.ImovelController",
+    "Method": "Buscar",
+    "RelativePath": "api/imoveis/busca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HabitaIA.API.DTOs.Imovel.BuscaImovelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HabitaIA.API.DTOs.Imovel.ImovelRespostaDTO, HabitaIA.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HabitaIA.API.Controllers.V1.WhatsAppController",
+    "Method": "Busca",
+    "RelativePath": "api/webhooks/whatsapp/busca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "HabitaIA.API.DTOs.WhatsApp.WhatsAppBuscaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HabitaIA.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HabitaIA.API.WeatherForecast, HabitaIA.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

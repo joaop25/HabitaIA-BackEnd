@@ -1,0 +1,403 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.business\\imovel\\services\\imovelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|solutionrelative:src\\habitaia.business\\imovel\\services\\imovelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.business\\imovel\\interfaces\\iimovelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|solutionrelative:src\\habitaia.business\\imovel\\interfaces\\iimovelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.business\\imovel\\interfaces\\iembeddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|solutionrelative:src\\habitaia.business\\imovel\\interfaces\\iembeddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679A7FD0-F2CD-4D0A-AAB0-C664C27B4CD6}|src\\HabitaIA.Core\\HabitaIA.Core.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.core\\repositories\\imovel\\imovelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679A7FD0-F2CD-4D0A-AAB0-C664C27B4CD6}|src\\HabitaIA.Core\\HabitaIA.Core.csproj|solutionrelative:src\\habitaia.core\\repositories\\imovel\\imovelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.business\\imovel\\interfaces\\iimovelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|solutionrelative:src\\habitaia.business\\imovel\\interfaces\\iimovelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.business\\imovel\\services\\semantickernelembeddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|solutionrelative:src\\habitaia.business\\imovel\\services\\semantickernelembeddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.api\\controllers\\v1\\whatsappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|solutionrelative:src\\habitaia.api\\controllers\\v1\\whatsappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.business\\nlp\\services\\skfilterextractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|solutionrelative:src\\habitaia.business\\nlp\\services\\skfilterextractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.business\\nlp\\interfaces\\ifilterextractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|solutionrelative:src\\habitaia.business\\nlp\\interfaces\\ifilterextractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.business\\nlp\\extractfiltersplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|solutionrelative:src\\habitaia.business\\nlp\\extractfiltersplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|solutionrelative:src\\habitaia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.api\\dtos\\whatsapp\\whatsappbuscadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|solutionrelative:src\\habitaia.api\\dtos\\whatsapp\\whatsappbuscadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|solutionrelative:src\\habitaia.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679A7FD0-F2CD-4D0A-AAB0-C664C27B4CD6}|src\\HabitaIA.Core\\HabitaIA.Core.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.core\\mapping\\imovel\\imovelmodelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679A7FD0-F2CD-4D0A-AAB0-C664C27B4CD6}|src\\HabitaIA.Core\\HabitaIA.Core.csproj|solutionrelative:src\\habitaia.core\\mapping\\imovel\\imovelmodelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.business\\imovel\\model\\imovelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|solutionrelative:src\\habitaia.business\\imovel\\model\\imovelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679A7FD0-F2CD-4D0A-AAB0-C664C27B4CD6}|src\\HabitaIA.Core\\HabitaIA.Core.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.core\\context\\contextohabitafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679A7FD0-F2CD-4D0A-AAB0-C664C27B4CD6}|src\\HabitaIA.Core\\HabitaIA.Core.csproj|solutionrelative:src\\habitaia.core\\context\\contextohabitafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.business\\nlp\\services\\openaifilterextractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2639951-7675-4541-8A29-B5E3D3DA5BC0}|src\\HabitaIA.Business\\HabitaIA.Business.csproj|solutionrelative:src\\habitaia.business\\nlp\\services\\openaifilterextractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.api\\controllers\\v1\\imovel\\imovelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|solutionrelative:src\\habitaia.api\\controllers\\v1\\imovel\\imovelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.api\\dtos\\imovel\\buscaimoveldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|solutionrelative:src\\habitaia.api\\dtos\\imovel\\buscaimoveldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679A7FD0-F2CD-4D0A-AAB0-C664C27B4CD6}|src\\HabitaIA.Core\\HabitaIA.Core.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.core\\context\\contextohabita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679A7FD0-F2CD-4D0A-AAB0-C664C27B4CD6}|src\\HabitaIA.Core\\HabitaIA.Core.csproj|solutionrelative:src\\habitaia.core\\context\\contextohabita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.api\\habitaia.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8432DBB6-2749-421D-BF01-B371EF76E980}|src\\HabitaIA.API\\HabitaIA.API.csproj|solutionrelative:src\\habitaia.api\\habitaia.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679A7FD0-F2CD-4D0A-AAB0-C664C27B4CD6}|src\\HabitaIA.Core\\HabitaIA.Core.csproj|c:\\users\\joao.fernandes\\desktop\\joao pedro\\codigos\\habitaai\\habitaia\\src\\habitaia.core\\migrations\\20251015234927_criacaodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679A7FD0-F2CD-4D0A-AAB0-C664C27B4CD6}|src\\HabitaIA.Core\\HabitaIA.Core.csproj|solutionrelative:src\\habitaia.core\\migrations\\20251015234927_criacaodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImovelService.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Services\\ImovelService.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Business\\Imovel\\Services\\ImovelService.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Services\\ImovelService.cs",
+              "RelativeToolTip": "src\\HabitaIA.Business\\Imovel\\Services\\ImovelService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:21:08.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmbeddingService.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Interfaces\\IEmbeddingService.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Business\\Imovel\\Interfaces\\IEmbeddingService.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Interfaces\\IEmbeddingService.cs",
+              "RelativeToolTip": "src\\HabitaIA.Business\\Imovel\\Interfaces\\IEmbeddingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:19:27.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SemanticKernelEmbeddingService.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Services\\SemanticKernelEmbeddingService.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Business\\Imovel\\Services\\SemanticKernelEmbeddingService.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Services\\SemanticKernelEmbeddingService.cs",
+              "RelativeToolTip": "src\\HabitaIA.Business\\Imovel\\Services\\SemanticKernelEmbeddingService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:19:58.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IImovelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Interfaces\\IImovelRepository.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Business\\Imovel\\Interfaces\\IImovelRepository.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Interfaces\\IImovelRepository.cs",
+              "RelativeToolTip": "src\\HabitaIA.Business\\Imovel\\Interfaces\\IImovelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:18:28.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImovelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\Repositories\\Imovel\\ImovelRepository.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Core\\Repositories\\Imovel\\ImovelRepository.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\Repositories\\Imovel\\ImovelRepository.cs",
+              "RelativeToolTip": "src\\HabitaIA.Core\\Repositories\\Imovel\\ImovelRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAhwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:19:03.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IImovelService.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Interfaces\\IImovelService.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Business\\Imovel\\Interfaces\\IImovelService.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Interfaces\\IImovelService.cs",
+              "RelativeToolTip": "src\\HabitaIA.Business\\Imovel\\Interfaces\\IImovelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:20:49.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WhatsAppController.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\Controllers\\V1\\WhatsAppController.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.API\\Controllers\\V1\\WhatsAppController.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\Controllers\\V1\\WhatsAppController.cs",
+              "RelativeToolTip": "src\\HabitaIA.API\\Controllers\\V1\\WhatsAppController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAIAwwC8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:42:28.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SKFilterExtractionService.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\NLP\\Services\\SKFilterExtractionService.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Business\\NLP\\Services\\SKFilterExtractionService.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\NLP\\Services\\SKFilterExtractionService.cs",
+              "RelativeToolTip": "src\\HabitaIA.Business\\NLP\\Services\\SKFilterExtractionService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAxwB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:41:00.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFilterExtractionService.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\NLP\\Interfaces\\IFilterExtractionService.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Business\\NLP\\Interfaces\\IFilterExtractionService.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\NLP\\Interfaces\\IFilterExtractionService.cs",
+              "RelativeToolTip": "src\\HabitaIA.Business\\NLP\\Interfaces\\IFilterExtractionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:34:43.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExtractFiltersPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\NLP\\ExtractFiltersPlugin.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Business\\NLP\\ExtractFiltersPlugin.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\NLP\\ExtractFiltersPlugin.cs",
+              "RelativeToolTip": "src\\HabitaIA.Business\\NLP\\ExtractFiltersPlugin.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:40:37.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.API\\Program.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\Program.cs",
+              "RelativeToolTip": "src\\HabitaIA.API\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAIAwwDMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:22:57.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WhatsAppBuscaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\DTOs\\WhatsApp\\WhatsAppBuscaDTO.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.API\\DTOs\\WhatsApp\\WhatsAppBuscaDTO.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\DTOs\\WhatsApp\\WhatsAppBuscaDTO.cs",
+              "RelativeToolTip": "src\\HabitaIA.API\\DTOs\\WhatsApp\\WhatsAppBuscaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:43:15.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\HabitaIA.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\appsettings.json",
+              "RelativeToolTip": "src\\HabitaIA.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-14T00:28:33.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ImovelModelMap.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\Mapping\\Imovel\\ImovelModelMap.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Core\\Mapping\\Imovel\\ImovelModelMap.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\Mapping\\Imovel\\ImovelModelMap.cs",
+              "RelativeToolTip": "src\\HabitaIA.Core\\Mapping\\Imovel\\ImovelModelMap.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:17:54.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ImovelModel.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Model\\ImovelModel.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Business\\Imovel\\Model\\ImovelModel.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\Imovel\\Model\\ImovelModel.cs",
+              "RelativeToolTip": "src\\HabitaIA.Business\\Imovel\\Model\\ImovelModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:15:48.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContextoHabitaFactory.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\Context\\ContextoHabitaFactory.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Core\\Context\\ContextoHabitaFactory.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\Context\\ContextoHabitaFactory.cs",
+              "RelativeToolTip": "src\\HabitaIA.Core\\Context\\ContextoHabitaFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T23:37:35.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OpenAIFilterExtractionService.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\NLP\\Services\\OpenAIFilterExtractionService.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Business\\NLP\\Services\\OpenAIFilterExtractionService.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\NLP\\Services\\OpenAIFilterExtractionService.cs",
+              "RelativeToolTip": "src\\HabitaIA.Business\\NLP\\Services\\OpenAIFilterExtractionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:35:14.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BuscaImovelDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\DTOs\\Imovel\\BuscaImovelDTO.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.API\\DTOs\\Imovel\\BuscaImovelDTO.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\DTOs\\Imovel\\BuscaImovelDTO.cs",
+              "RelativeToolTip": "src\\HabitaIA.API\\DTOs\\Imovel\\BuscaImovelDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:21:48.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ImovelController.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\Controllers\\V1\\Imovel\\ImovelController.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.API\\Controllers\\V1\\Imovel\\ImovelController.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\Controllers\\V1\\Imovel\\ImovelController.cs",
+              "RelativeToolTip": "src\\HabitaIA.API\\Controllers\\V1\\Imovel\\ImovelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:22:22.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ContextoHabita.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\Context\\ContextoHabita.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Core\\Context\\ContextoHabita.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\Context\\ContextoHabita.cs",
+              "RelativeToolTip": "src\\HabitaIA.Core\\Context\\ContextoHabita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:16:26.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20251015234927_CriacaoDB.cs",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\Migrations\\20251015234927_CriacaoDB.cs",
+              "RelativeDocumentMoniker": "src\\HabitaIA.Core\\Migrations\\20251015234927_CriacaoDB.cs",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Core\\Migrations\\20251015234927_CriacaoDB.cs",
+              "RelativeToolTip": "src\\HabitaIA.Core\\Migrations\\20251015234927_CriacaoDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T23:49:27.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HabitaIA.API",
+              "DocumentMoniker": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj",
+              "RelativeDocumentMoniker": "src\\HabitaIA.API\\HabitaIA.API.csproj",
+              "ToolTip": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.API\\HabitaIA.API.csproj",
+              "RelativeToolTip": "src\\HabitaIA.API\\HabitaIA.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T00:04:17.327Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "L5AiVYCdHts=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaAI\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\azure.ai.openai\\2.5.0-beta.1\\azure.ai.openai.2.5.0-beta.1.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\azure.core\\1.49.0\\azure.core.1.49.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.extensions.ai\\9.9.1\\microsoft.extensions.ai.9.9.1.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.9.1\\microsoft.extensions.ai.abstractions.9.9.1.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.extensions.ai.openai\\9.9.1-preview.1.25474.6\\microsoft.extensions.ai.openai.9.9.1-preview.1.25474.6.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.9\\microsoft.extensions.caching.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.9\\microsoft.extensions.logging.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.extensions.vectordata.abstractions\\9.7.0\\microsoft.extensions.vectordata.abstractions.9.7.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.semantickernel\\1.66.0\\microsoft.semantickernel.1.66.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.semantickernel.abstractions\\1.66.0\\microsoft.semantickernel.abstractions.1.66.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.semantickernel.connectors.azureopenai\\1.66.0\\microsoft.semantickernel.connectors.azureopenai.1.66.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.semantickernel.connectors.openai\\1.66.0\\microsoft.semantickernel.connectors.openai.1.66.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.semantickernel.core\\1.66.0\\microsoft.semantickernel.core.1.66.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\openai\\2.5.0\\openai.2.5.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\system.clientmodel\\1.7.0\\system.clientmodel.1.7.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\system.numerics.tensors\\9.0.8\\system.numerics.tensors.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
