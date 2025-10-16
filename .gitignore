@@ -1,0 +1,9 @@
+# Arquivos e pastas que nunca devem ir para o Git
+.env
+*.env
+bin/
+obj/
+*.user
+*.db
+*.sqlite
+appsettings.*.json
