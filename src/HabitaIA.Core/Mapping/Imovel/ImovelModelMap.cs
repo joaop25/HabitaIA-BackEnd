@@ -24,14 +24,17 @@ namespace HabitaIA.Core.Mapping.Imovel
 
             b.Property(i => i.Preco).HasColumnType("numeric(14,2)");
             b.Property(i => i.Area).HasColumnType("double precision");
-            b.Property(i => i.CreatedAt).HasColumnType("timestamp with time zone");
+            b.Property(i => i.CreatedAt).HasColumnType("timestamp with time zone")
+                .HasDefaultValueSql("now()");
 
-            // Array nativo do PostgreSQL (Npgsql) sem pgvector
-            b.Property(i => i.Embedding).HasColumnType("double precision[]");
+            // (2) Embedding como float4[] (real[]) no Postgres
+            b.Property(i => i.Embedding).HasColumnType("real[]");
 
             b.HasIndex(i => new { i.TenantId, i.Preco, i.Quartos, i.Bairro });
             b.HasIndex(i => i.TenantId);
             b.HasIndex(i => i.Bairro);
+            // opcional: case-insensitive para buscas lexicais
+            // criar índice separado em migração SQL: create index idx_imoveis_bairro_ci on imoveis (lower("Bairro"));
         }
     }
 }

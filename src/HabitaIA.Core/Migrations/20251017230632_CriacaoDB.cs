@@ -26,8 +26,8 @@ namespace HabitaIA.Core.Migrations
                     Banheiros = table.Column<int>(type: "integer", nullable: false),
                     Preco = table.Column<decimal>(type: "numeric(14,2)", nullable: false),
                     Area = table.Column<double>(type: "double precision", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    Embedding = table.Column<double[]>(type: "double precision[]", nullable: false)
+                    CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false, defaultValueSql: "now()"),
+                    Embedding = table.Column<float[]>(type: "real[]", nullable: false)
                 },
                 constraints: table =>
                 {

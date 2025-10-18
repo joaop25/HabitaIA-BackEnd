@@ -12,13 +12,22 @@ namespace HabitaIA.Business.Imovel.Services
     public class SemanticKernelEmbeddingService : IEmbeddingService
     {
         private readonly ITextEmbeddingGenerationService _embedder;
-        public SemanticKernelEmbeddingService(ITextEmbeddingGenerationService embedder) => _embedder = embedder;
 
-        public async Task<double[]> GenerateAsync(string text, CancellationToken ct)
+        public SemanticKernelEmbeddingService(ITextEmbeddingGenerationService embedder)
         {
-            var mem = await _embedder.GenerateEmbeddingAsync(text,null, ct); // ReadOnlyMemory<float>
-            var floats = mem.ToArray();                 // float[]
-            return Array.ConvertAll(floats, x => (double)x);
+            _embedder = embedder;
+        }
+
+        public async Task<float[]> GenerateAsync(string text, CancellationToken ct)
+        {
+            // SK retorna ReadOnlyMemory<float>
+            var mem = await _embedder.GenerateEmbeddingAsync(text,null,ct);
+            var vec = mem.ToArray(); // float[]
+
+            // (2) normaliza antes de persistir/usar
+            IEmbeddingService.NormalizeInPlace(vec.AsSpan());
+
+            return vec;
         }
     }
 }

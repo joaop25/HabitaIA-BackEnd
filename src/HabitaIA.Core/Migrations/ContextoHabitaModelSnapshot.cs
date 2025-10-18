@@ -45,15 +45,17 @@ namespace HabitaIA.Core.Migrations
                         .HasColumnType("character varying(120)");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasDefaultValueSql("now()");
 
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.PrimitiveCollection<double[]>("Embedding")
+                    b.PrimitiveCollection<float[]>("Embedding")
                         .IsRequired()
-                        .HasColumnType("double precision[]");
+                        .HasColumnType("real[]");
 
                     b.Property<decimal>("Preco")
                         .HasColumnType("numeric(14,2)");

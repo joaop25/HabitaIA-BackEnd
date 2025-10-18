@@ -1,4 +1,6 @@
 using dotenv.net;
+using System.Net.Http;
+
 using HabitaIA.Business.Imovel.Interfaces;
 using HabitaIA.Business.Imovel.Services;
 using HabitaIA.Business.NLP;
@@ -8,61 +10,97 @@ using HabitaIA.Core.Context;
 using HabitaIA.Core.Repositories.Imovel;
 
 using Microsoft.EntityFrameworkCore;
-
-// Semantic Kernel (Chat + Embeddings)
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 using Microsoft.SemanticKernel.Embeddings;
 
-DotEnv.Load();
-var builder = WebApplication.CreateBuilder(args);
-var cfg = builder.Configuration;
+using Npgsql.EntityFrameworkCore.PostgreSQL; // EnableRetryOnFailure
 
+// 1) Carrega .env antes de montar o builder
+DotEnv.Load();
+
+var builder = WebApplication.CreateBuilder(args);
+
+// 2) Configuração
 builder.Configuration
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables();
 
-// ---------- EF Core + PostgreSQL ----------
+var cfg = builder.Configuration;
+
+// Helpers locais
+string? GetOpenAIKey() =>
+    (cfg["OpenAI:ApiKey"] ?? Environment.GetEnvironmentVariable("OPENAI_API_KEY"))?.Trim();
+
+string? GetProjectId() => cfg["OpenAI:Project"]?.Trim();
+
+string GetModel(string key, string fallback) =>
+    (cfg[key]?.Trim()).NullIfEmpty() ?? fallback;
+
+static HttpClient BuildHttpClientWithProject(string? projectId)
+{
+    var http = new HttpClient();
+    if (!string.IsNullOrWhiteSpace(projectId))
+        http.DefaultRequestHeaders.Add("OpenAI-Project", projectId);
+    return http;
+}
+
+// 3) EF Core + PostgreSQL (sem pooling, pois seu DbContext aceita IHttpContextAccessor)
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddDbContext<ContextoHabita>(opt =>
-{
-    // Tenta pegar a connection string do appsettings.json ou do ambiente (.env / sistema)
-    var conn = cfg.GetConnectionString("pg") ?? Environment.GetEnvironmentVariable("PG_CONN");
-    opt.UseNpgsql(conn);
-});
-// ---------- Domínio ----------
+    opt.UseNpgsql(
+        cfg.GetConnectionString("pg"),
+        npgsql => npgsql.EnableRetryOnFailure(
+            maxRetryCount: 5,
+            maxRetryDelay: TimeSpan.FromSeconds(10),
+            errorCodesToAdd: new[] { "40001" }
+        )
+    )
+);
+
+// 4) Domínio
 builder.Services.AddScoped<IImovelRepository, ImovelRepository>();
 builder.Services.AddScoped<IImovelService, ImovelService>();
 
-// ---------- OpenAI / Semantic Kernel ----------
-// 1) Chat para Function Calling (SK)
+// 5) OpenAI / Semantic Kernel
+
+// 5.1 Chat para Function Calling (SK)
 builder.Services.AddSingleton<IChatCompletionService>(sp =>
 {
-    var c = sp.GetRequiredService<IConfiguration>();
-    var apiKey = c["OpenAI:ApiKey"] ?? Environment.GetEnvironmentVariable("OPENAI_API_KEY");
-    var modelId = c["OpenAI:ChatModel"] ?? "gpt-4o-mini";
+    var apiKey = GetOpenAIKey();
+    var modelId = GetModel("OpenAI:ChatModel", "gpt-4o-mini");
+    var project = GetProjectId();
 
-    return new OpenAIChatCompletionService(modelId, apiKey);
+    if (string.IsNullOrWhiteSpace(apiKey))
+        throw new InvalidOperationException("OpenAI:ApiKey não configurada (verifique .env ou variável de ambiente).");
+
+    var http = BuildHttpClientWithProject(project);
+    return new OpenAIChatCompletionService(modelId, apiKey, httpClient: http);
 });
 
-// 2) Embeddings (SK)
+// 5.2 Embeddings (SK)
 builder.Services.AddSingleton<ITextEmbeddingGenerationService>(sp =>
 {
-    var c = sp.GetRequiredService<IConfiguration>();
-    var apiKey = c["OpenAI:ApiKey"] ?? Environment.GetEnvironmentVariable("OPENAI_API_KEY");
-    var modelId = c["OpenAI:EmbeddingModel"] ?? "text-embedding-3-small";
+    var apiKey = GetOpenAIKey();
+    var modelId = GetModel("OpenAI:EmbeddingModel", "text-embedding-3-small");
+    var project = GetProjectId();
 
-    return new OpenAITextEmbeddingGenerationService(modelId, apiKey);
+    if (string.IsNullOrWhiteSpace(apiKey))
+        throw new InvalidOperationException("OpenAI:ApiKey não configurada (verifique .env ou variável de ambiente).");
+
+    var http = BuildHttpClientWithProject(project);
+    return new OpenAITextEmbeddingGenerationService(modelId, apiKey, httpClient: http);
 });
 
-// 3) Plugin + Service para Function Calling (extração de filtros)
+// 5.3 Plugin + Service para Function Calling (extração de filtros)
 builder.Services.AddSingleton<ExtractFiltersPlugin>();
 builder.Services.AddScoped<IFilterExtractionService, SKFilterExtractionService>();
 
-// 4) Serviço de IA de domínio que usa ITextEmbeddingGenerationService
+// 5.4 Serviço de IA de domínio (gera embeddings normalizados float[])
 builder.Services.AddScoped<IEmbeddingService, SemanticKernelEmbeddingService>();
 
-// ---------- Web ----------
+// 6) Web / Swagger
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -79,8 +117,16 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Se for usar [Authorize], lembre de adicionar app.UseAuthentication() antes de UseAuthorization()
+// Se usar autenticação:
+// app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
 app.Run();
+
+static class StringExt
+{
+    public static string? NullIfEmpty(this string? s) =>
+        string.IsNullOrWhiteSpace(s) ? null : s;
+}

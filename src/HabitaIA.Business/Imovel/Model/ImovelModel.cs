@@ -22,6 +22,6 @@ namespace HabitaIA.Business.Imovel.Model
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         // Embedding salvo como array de double (sem pgvector!)
-        public double[] Embedding { get; set; } = Array.Empty<double>();
+        public float[] Embedding { get; set; } = Array.Empty<float>();
     }
 }

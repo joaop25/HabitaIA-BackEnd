@@ -32,12 +32,17 @@ namespace HabitaIA.Business.NLP.Services
         public async Task<ExtractedFilters> ExtractAsync(string userText, CancellationToken ct)
         {
             var history = new ChatHistory();
-            history.AddSystemMessage(
-                "Você é um extrator de filtros para busca de imóveis. " +
-                "Responda CHAMANDO a função 'extract_filters' com: " +
-                "precoMaximo(number), quartosMinimos(int), bairro(string), limite(int). " +
-                "Se não souber, passe null. Não invente."
-            );
+            history.AddSystemMessage("""
+Você extrai filtros para busca de imóveis (pt-BR).
+Retorne APENAS uma chamada à função "extract_filters" com:
+- precoMaximo: number|null (teto em BRL; "X mil"/"Xk"=X*1000; "entre A e B"→B)
+- quartosMinimos: int|null (mínimo)
+- bairro: string|null (somente se citado literalmente; marcos como "UFMG" não viram bairro)
+- limite: int|null (se o usuário pedir N resultados)
+Se faltar valor → null. Não invente.
+Ex.: "até 300 mil, 2 quartos no Castelo" → extract_filters({ "precoMaximo":300000,"quartosMinimos":2,"bairro":"Castelo","limite":null })
+""");
+
             history.AddUserMessage(userText);
 
             var settings = new OpenAIPromptExecutionSettings

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HabitaIA.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+facce5fde8523abd0ef87498bc01bcd369ad126b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c9f7356661b25c47cb1e59536dc77e9cd35823c")]
 [assembly: System.Reflection.AssemblyProductAttribute("HabitaIA.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HabitaIA.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
