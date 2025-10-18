@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wRjsjzeV+g8=",
+  "dgSpecHash": "UpsZl9/BeD8=",
   "success": true,
   "projectFilePath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Core\\HabitaIA.Core.csproj",
   "expectedPackageFiles": [
@@ -61,6 +61,8 @@
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql.design\\1.1.0\\npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\openai\\2.5.0\\openai.2.5.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\polly\\8.6.4\\polly.8.6.4.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\polly.core\\8.6.4\\polly.core.8.6.4.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NGjkuyAAl+s=",
+  "dgSpecHash": "Oxc1rH1Yijk=",
   "success": true,
   "projectFilePath": "C:\\Users\\joao.fernandes\\Desktop\\JOAO PEDRO\\Codigos\\HabitaIA\\src\\HabitaIA.Business\\HabitaIA.Business.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,8 @@
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.semantickernel.connectors.openai\\1.66.0\\microsoft.semantickernel.connectors.openai.1.66.0.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\microsoft.semantickernel.core\\1.66.0\\microsoft.semantickernel.core.1.66.0.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\openai\\2.5.0\\openai.2.5.0.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\polly\\8.6.4\\polly.8.6.4.nupkg.sha512",
+    "C:\\Users\\joao.fernandes\\.nuget\\packages\\polly.core\\8.6.4\\polly.core.8.6.4.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\system.clientmodel\\1.7.0\\system.clientmodel.1.7.0.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512",
     "C:\\Users\\joao.fernandes\\.nuget\\packages\\system.numerics.tensors\\9.0.8\\system.numerics.tensors.9.0.8.nupkg.sha512"

@@ -65,6 +65,10 @@
             "Microsoft.SemanticKernel.Connectors.OpenAI": {
               "target": "Package",
               "version": "[1.66.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.6.4, )"
             }
           },
           "imports": [

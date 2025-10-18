@@ -318,3 +318,5 @@ C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.API\obj
 C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.API\obj\Debug\net9.0\HabitaIA.API.pdb
 C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.API\obj\Debug\net9.0\HabitaIA.API.genruntimeconfig.cache
 C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.API\obj\Debug\net9.0\ref\HabitaIA.API.dll
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.API\bin\Debug\net9.0\Polly.dll
+C:\Users\joao.fernandes\Desktop\JOAO PEDRO\Codigos\HabitaIA\src\HabitaIA.API\bin\Debug\net9.0\Polly.Core.dll
